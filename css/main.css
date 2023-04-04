@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 20px;
+  text-decoration: overline;
+  font-size: 90px;
+  font-style: oblique;
+}
+
+.border-black {
+  border: 5px dotted black;
+}
+
+.rounded {
+  border-radius: 10px 100px / 120px;
+}
+
+.shadow {
+  box-shadow: 50px 50px 5px rgba(0, 0, 0, 0.5);
+}
+
+.flex {
+  display: flex;
+}
+
+.navigation {
+  display: flex;
+  background: rgba(11, 77, 18, 0.5);
+  border: 2px solid black;
+  margin: 20px;
+}
+
+.pad {
+  /* padding-left: 20px;
+  padding-right: 20px; */
+
+  padding: 0px 20px 0px 20px;
+}
+
+.pad-contact {
+  padding-right: 50px;
+}

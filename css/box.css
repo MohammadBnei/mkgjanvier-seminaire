@@ -1,0 +1,49 @@
+.boxes {
+  width: 400px;
+  height: 400px;
+  background-color: gray;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+}
+
+.box {
+  width: 40%;
+  height: 100px;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.position {
+  width: 100px;
+  height: 100px;
+  background: rgba(8, 88, 112, 0.3);
+  padding: 50px;
+  margin: 50px;
+}
+
+.center1 {
+  margin: auto;
+}
+
+.center2 {
+  display: flex;
+  justify-content: center;
+}
+
+.boho {
+  background: url("../img/boho.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}

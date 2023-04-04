@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&display=swap");
+
+.header {
+  display: flex;
+  background: #c8bfbf;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h1 {
+  font-family: Alkatra, sans-serif;
+}
+
+.nav-links {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+body {
+  margin: 0;
+}
+
+.blog-image {
+  width: 300px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.post {
+  display: flex;
+  width: 48%;
+  padding: 5px;
+}
+
+.blog-posts {
+  display: flex;
+  margin: 10px;
+  flex-wrap: wrap;
+}
+
+.color-red {
+  color: #8e2020;
+}
+
+footer {
+  background: #0c0707;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
